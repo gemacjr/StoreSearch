@@ -21,6 +21,8 @@ class SearchViewController: UIViewController {
         //tableView.contentInset = UIEdgeInsets(top: 64, left: 0, bottom: 0, right: 0)
         tableView.rowHeight = 80
         
+        searchBar.becomeFirstResponder()
+        
         var cellNib = UINib(nibName: TableViewCellIdentifiers.searchResultCell, bundle: nil)
         tableView.register(cellNib, forCellReuseIdentifier: TableViewCellIdentifiers.searchResultCell)
         
