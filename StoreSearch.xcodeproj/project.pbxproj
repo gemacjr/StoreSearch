@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		740A57421E96BF080083F9D3 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 740A57411E96BF080083F9D3 /* LoadingCell.xib */; };
 		745A6D101E9446450004FF5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745A6D0F1E9446450004FF5A /* AppDelegate.swift */; };
 		745A6D121E9446450004FF5A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745A6D111E9446450004FF5A /* SearchViewController.swift */; };
 		745A6D151E9446450004FF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745A6D131E9446450004FF5A /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		740A57411E96BF080083F9D3 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 		745A6D0C1E9446450004FF5A /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		745A6D0F1E9446450004FF5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		745A6D111E9446450004FF5A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				746D6F8C1E94A190001E2E51 /* SearchResultCell.xib */,
 				746D6F8E1E94A6C9001E2E51 /* SearchResultCell.swift */,
 				746D6F901E94AA4D001E2E51 /* NothingFoundCell.xib */,
+				740A57411E96BF080083F9D3 /* LoadingCell.xib */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				745A6D1A1E9446450004FF5A /* LaunchScreen.storyboard in Resources */,
 				745A6D171E9446450004FF5A /* Assets.xcassets in Resources */,
+				740A57421E96BF080083F9D3 /* LoadingCell.xib in Resources */,
 				746D6F8D1E94A190001E2E51 /* SearchResultCell.xib in Resources */,
 				746D6F911E94AA4D001E2E51 /* NothingFoundCell.xib in Resources */,
 				745A6D151E9446450004FF5A /* Main.storyboard in Resources */,

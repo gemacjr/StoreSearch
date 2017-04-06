@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LoadingCell" id="eJs-mc-Goe">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eJs-mc-Goe" id="nfu-Eo-cfo">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAp-TX-Sbf">
+                        <rect key="frame" x="93" y="9" width="135.5" height="61"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rH1-6K-sU6">
+                                <rect key="frame" x="103" y="21" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7W-im-3BX">
+                                <rect key="frame" x="20" y="20" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.50339790239726023" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c7W-im-3BX" firstAttribute="top" secondItem="YAp-TX-Sbf" secondAttribute="top" constant="20" id="Bp2-eO-ZrI"/>
+                            <constraint firstItem="rH1-6K-sU6" firstAttribute="leading" secondItem="c7W-im-3BX" secondAttribute="trailing" constant="8" id="XmF-XW-PTO"/>
+                            <constraint firstItem="rH1-6K-sU6" firstAttribute="top" secondItem="YAp-TX-Sbf" secondAttribute="top" constant="21" id="ZxD-lX-qaW"/>
+                            <constraint firstAttribute="trailing" secondItem="rH1-6K-sU6" secondAttribute="trailing" constant="20" id="dkF-ee-B8A"/>
+                            <constraint firstAttribute="bottom" secondItem="c7W-im-3BX" secondAttribute="bottom" constant="20" id="evn-lM-qdw"/>
+                            <constraint firstItem="rH1-6K-sU6" firstAttribute="leading" secondItem="c7W-im-3BX" secondAttribute="trailing" constant="8" id="iUl-Zd-Xf3"/>
+                            <constraint firstItem="c7W-im-3BX" firstAttribute="leading" secondItem="YAp-TX-Sbf" secondAttribute="leading" constant="20" id="jP4-yg-C0Z"/>
+                            <constraint firstAttribute="bottom" secondItem="rH1-6K-sU6" secondAttribute="bottom" constant="20" id="uAK-VU-TKb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YAp-TX-Sbf" firstAttribute="centerY" secondItem="nfu-Eo-cfo" secondAttribute="centerY" id="BgN-CW-2bW"/>
+                    <constraint firstItem="YAp-TX-Sbf" firstAttribute="centerX" secondItem="nfu-Eo-cfo" secondAttribute="centerX" id="VxK-SH-Yte"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="-23" y="42"/>
+        </tableViewCell>
+    </objects>
+</document>
